@@ -1,0 +1,8 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "cpp": "$env:Path = \"C:\\msys64\\ucrt64\\bin;C:\\msys64\\usr\\bin;$env:Path\"; cd $dir; if ($?) { & \"C:\\msys64\\ucrt64\\bin\\g++.exe\" \"$fileName\" -o \"$fileNameWithoutExt.exe\" }; if ($?) { & \".\\$fileNameWithoutExt.exe\" }"
+    }
+}
