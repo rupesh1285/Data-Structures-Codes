@@ -7,7 +7,7 @@ int main() {
 
     s.push("I");
     s.push("Love");
-    s.push("Chinu");
+    s.push("Code");
 
     cout<<"Printing top element: "<< s.top()<<endl;
     s.pop();
